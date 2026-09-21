@@ -1,0 +1,9 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_sysadmin_server_user,sysadmin.server user,model_sysadmin_server,servidores.group_sysadmin_user,1,1,1,0
+access_sysadmin_server_manager,sysadmin.server manager,model_sysadmin_server,servidores.group_sysadmin_manager,1,1,1,1
+access_sysadmin_interface_user,sysadmin.server.interface user,model_sysadmin_server_interface,servidores.group_sysadmin_user,1,1,1,0
+access_sysadmin_interface_manager,sysadmin.server.interface manager,model_sysadmin_server_interface,servidores.group_sysadmin_manager,1,1,1,1
+access_sysadmin_dns_user,sysadmin.dns.record user,model_sysadmin_dns_record,servidores.group_sysadmin_user,1,1,1,0
+access_sysadmin_dns_manager,sysadmin.dns.record manager,model_sysadmin_dns_record,servidores.group_sysadmin_manager,1,1,1,1
+access_sysadmin_zone_user,sysadmin.dns.zone user,model_sysadmin_dns_zone,servidores.group_sysadmin_user,1,1,1,0
+access_sysadmin_zone_manager,sysadmin.dns.zone manager,model_sysadmin_dns_zone,servidores.group_sysadmin_manager,1,1,1,1

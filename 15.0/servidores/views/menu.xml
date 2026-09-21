@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <menuitem id="menu_sysadmin_root" name="Sys Admin" sequence="10" groups="servidores.group_sysadmin_user,servidores.group_sysadmin_manager"/>
+    <menuitem id="menu_sysadmin_servers" name="Servidores" parent="menu_sysadmin_root" sequence="10" action="action_sysadmin_server"/>
+    <menuitem id="menu_sysadmin_dns" name="DNS" parent="menu_sysadmin_root" sequence="20" action="action_sysadmin_dns_record"/>
+    <menuitem id="menu_sysadmin_zones" name="Zonas DNS" parent="menu_sysadmin_root" sequence="15" action="action_sysadmin_dns_zone"/>
+</odoo>
